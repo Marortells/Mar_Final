@@ -1,0 +1,26 @@
+body{
+  margin: 0;
+  font-family: 'Helvetica';
+  font-size: 15px;
+  background: #30526c;
+}
+
+a{
+  color: #30526c;
+}
+
+.cabecera{
+  position: sticky;
+  top: 0;
+  background: #aae5f5;
+  padding: 15px 0;
+  z-index: 1000;
+  border-bottom: 2px solid #aae5f5;
+  box-shadow: 0 4px 15px #000000;
+}
+
+.barra-navegacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
