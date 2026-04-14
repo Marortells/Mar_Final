@@ -24,3 +24,12 @@ a{
     justify-content: space-between;
     align-items: center;
 }
+
+/* Estilos para la targeta de Bootstrap */
+.card{
+    width: 15%;
+    color: rgb(10, 75, 115);
+    background: rgba(235, 231, 231, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
