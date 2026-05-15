@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Mar Ortells</title>
+</head>
+
+<body>
+
+    <header class="cabecera">
+        <div class="container barra-navegacion">
+
+            <nav class="enlaces-navegacion">
+
+                <!-- APARTATS CAPÇALERA -->
+                <a class="logo" href="#introduccio-text"><span>Introducció</span></a>
+
+                <a class="logo" href="#proces-contenidor"><span>Procés</span></a>
+
+                <a class="logo" href="#apartats-text"><span>Apartats llibre</span></a>
+
+            </nav>
+        </div>
+    </header>
+<!-- TÍTOL -->
+    <section class="boxshadow-seccio">
+        <h2>Realitat Interna-TCA</h2>
+
+        <div class="caixes-horitzontals">
+
+            <!-- INTRODUCCIÓ -->
+            <div class="bloc">
+
+                <div class="caixa-shadow ombra1" onclick="toggleText()">
+                    Introducció TCA
+                </div>
+
+                <div id="introduccio-text"
+                class="caixa-text"
+                style="display:none; margin-top: 15px;">
+
+                    Aquest projecte de fi de grau se centra en els trastorns de la conducta alimentària (TCA) i en la seva
+                    representació dins del disseny gràfic editorial. És un tema que, tot i que cada vegada es veu més en l’àmbit
+                    social i als mitjans, encara continua sent bastant desconegut en profunditat i sovint es tracta de manera
+                    molt superficial o simplificada. Normalment es parla dels TCA des d’un punt de vista molt clínic o centrat
+                    només en els símptomes més visibles, però rarament es treballa la part emocional i tot el que hi ha darrere
+                    de la persona que ho pateix.
+
+                    <br><br>
+
+                    Els TCA no són només una relació alterada amb el menjar, sinó que afecten directament la manera com una
+                    persona es percep a si mateixa, com gestiona les seves emocions i com es relaciona amb el seu entorn. És una
+                    problemàtica molt més complexa del que pot semblar des de fora, perquè no té una sola causa ni una sola
+                    forma d’expressar-se. Cada cas és diferent, però en molts d’ells hi ha un punt en comú que és la relació amb
+                    el cos i la pressió que s’exerceix sobre aquest.
+
+                    <br><br>
+
+                    En l’actualitat, aquest context està molt condicionat per la societat en la qual vivim. Les xarxes socials
+                    tenen un paper molt important en la construcció de la imatge corporal, ja que estem constantment exposats a
+                    cossos idealitzats, rutines de vida aparentment perfectes i missatges relacionats amb el benestar o la salut
+                    que no sempre són realistes. Tot això pot generar una comparació contínua amb els altres i una sensació de
+                    no estar a l’altura, especialment en persones joves que encara estan construint la seva identitat.
+
+                    <br><br>
+
+                    A més, aquest tipus de contingut visual no només afecta a nivell superficial, sinó que pot influir
+                    directament en la percepció que tenim de nosaltres mateixos. En molts casos, aquesta pressió no és
+                    explícita, però es va incorporant de manera progressiva a través del consum constant d’imatges i discursos
+                    relacionats amb el cos. Per això, els TCA també es poden entendre com un reflex d’un context social més
+                    ampli, i no només com un problema individual.
+
+                    <br><br>
+
+                    Des del disseny gràfic, aquest projecte parteix de la idea que la comunicació visual no és neutral. La
+                    manera com es representen determinades realitats pot influir en com aquestes són enteses, percebudes i fins
+                    i tot jutjades. En el cas dels TCA, això és especialment important, ja que una mala representació pot
+                    reforçar estereotips o generar una visió incompleta del problema. Per això, el disseny editorial es
+                    converteix aquí en una eina per intentar construir una mirada més conscient i més respectuosa.
+
+                </div>
+
+            </div>
+
+            <!-- PROCÉS -->
+            <div class="bloc">
+
+                <div class="caixa-shadow ombra2" onclick="toggleProces()">
+                    Procés
+                </div>
+
+                <!-- FOTOS -->
+                <div id="proces-contenidor" class="contenido" style="display:none;">
+                    <img src="img/imatge1.jpg" alt="Procés">
+                    <img src="img/imatge2.jpg" alt="Procés">
+                    <img src="img/imatge3.jpg" alt="Procés">
+                </div>
+
+            </div>
+
+            <!-- APARTATS -->
+            <div class="bloc">
+
+                <div class="caixa-shadow ombra3" onclick="toggleApartats()">
+                    Apartats llibre
+                </div>
+
+                <div id="apartats-text"
+                class="caixa-text"
+                style="display:none; margin-top: 15px;">
+
+                    El llibre està estructurat en tres grans blocs que permeten abordar el tema dels Trastorns de la Conducta
+                    Alimentària des de perspectives diferents però complementàries. En primer lloc, hi ha una part més acadèmica
+                    i professional, on es recull informació teòrica i el punt de vista de professionals del sector. Aquest
+                    apartat ajuda a contextualitzar el tema i a entendre’l des d’una base més tècnica i informativa, aportant
+                    una mirada més objectiva i de suport.
+
+                    En segon lloc, es desenvolupa la part més personal del projecte, basada en testimonis i experiències reals
+                    de persones que han viscut o estan vivint un TCA. Aquest bloc és el més proper i humà del llibre, ja que
+                    dona veu directa a vivències individuals i permet entendre la realitat del tema des d’una perspectiva més
+                    emocional i íntima.
+
+                    Finalment, el llibre inclou una part més reflexiva, tant des del punt de vista professional com personal, on
+                    es recullen diferents mirades sobre tot el procés i sobre el tema en si. Aquest apartat funciona com un
+                    espai de tancament i anàlisi.
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="pie"></footer>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
